@@ -1,0 +1,130 @@
+.fixed{
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    left: 0px;
+    z-index: 1;
+    top:0px;
+}
+.uni-logo{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.heading1{
+    height: auto;
+    width: 30%;
+    margin-left: 19px;
+    font-size: 23px;
+    margin-top:-13px;
+}
+.para1{
+font-size: 24px; 
+margin-left: 56px;
+margin-top: -52px;
+}
+.main-right-div{
+    height: 41px;
+    width: 86%;
+    position: absolute;
+    /* background-color: yellow; */
+    margin-left: 809px;
+    margin-top: -60px;
+    
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color:white;
+    color: black;
+    padding: 4px;
+    font-size: 19px;
+    border: none;
+    cursor: pointer;
+    margin-left: 31px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+       
+    margin-left:33px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: grey;
+}
+.slider{
+    height: 424px;
+    width: 100%;
+    border: solid 1px red;
+    margin-top: -18px;
+}
+.img1{
+    height: 424px;
+    width: 100%;
+    margin-top: 83px;
+    opacity:0.5;
+
+}
+.container{
+    width: 884px;
+    margin-left: 230px;
+    margin-top: 126px;}
+
+
+
+
+.carousel .item {
+    width: 100%; /*slider width*/
+    max-height: 600px; /*slider height*/
+}
+.carousel .item img {
+    width: 100%; /*img width*/
+}
+/*full width container*/
+@media (max-width: 767px) {
+    .block {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+}
+.gallery{
+    height: 44px;
+    width: 339px;
+    position: relative;
+    margin-left: 481px;
+    margin-top: 35px;
+    border: 1px solid white;
+    padding: 13px;
+    FONT-SIZE: 41px;
+    border-width: 3px;
+    text-align: center;
+}
